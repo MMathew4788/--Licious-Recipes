@@ -1,0 +1,14 @@
+{
+  "name": "recipe",
+  "version": "1.0.0",
+  "description": "recipes of different cuisine",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Manoj",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

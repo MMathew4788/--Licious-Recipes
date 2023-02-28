@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil-licious</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 3rem 3rem 10rem;
+            color: #555;
+            min-height: 100vh;
+            background: linear-gradient(to top left, #f12711, #f5af19);
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #243763;
+            font-size: 3rem;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .card {
+            background: white;
+            width: 50rem;
+            height: max-content;
+            margin: auto;
+            box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.30);
+            transform: skewX(-2deg);
+            transition: all 0.5s;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Indie Flower', cursive;
+            border-radius: 2rem;
+            font-weight: bold;
+        }
+        .card-detail{
+          display: flex;
+          flex-direction: row;
+          font-family: 'Indie Flower', cursive;
+          margin: auto;
+        }
+        h2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f5af19;
+          padding: 1rem;
+          border-top-left-radius:2rem ;
+          border-top-right-radius:2rem ;
+          margin-top: 0;
+          padding-right: 15rem;
+          justify-content: space-between;
+        }
+        .card-items{
+          text-align: left;
+          padding: 1rem;
+        }
+        .card-steps{
+          text-align: left;
+          padding: 1rem;
+        }
+        a {
+            text-decoration: none;
+            color:#f12711;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fa fa-heart" style="color:#f12711"></i>-Licious Recipes</h1>
+    </header>
+    <div class="card">
+      <h2><a href="/overview" class="card-details"><i class="fa fa-hand-o-left" style="color: #f12711"></i>&nbsp; Back
+      </a>{%RECIPE_NAME%}</h2>
+      <section class="card-detail">
+        <div class="card-items"><div>Ingredients</div>
+        <ol>{%RECIPE_ITEMS%}</ol>
+        </div>
+        <div class="card-steps"><div>Steps</div> 
+        <ol>{%RECIPE_STEPS%}</ol>
+          </div>
+      </section>
+      <div></div>
+      <div></div>
+    </div>
+</body>
+</html>

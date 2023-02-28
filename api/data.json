@@ -1,0 +1,133 @@
+[
+  {
+    "id": 0,
+    "name": "Spaghetti Carbonara",
+    "items": [
+      "spaghetti",
+      "eggs",
+      "bacon",
+      "parmesan cheese",
+      "garlic",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Boil spaghetti in salted water until al dente.",
+      "In a separate pan, cook bacon until crispy.",
+      "In a bowl, whisk together eggs, parmesan cheese, minced garlic, salt, and black pepper.",
+      "Add cooked spaghetti to the pan with bacon and mix well.",
+      "Remove pan from heat and add egg mixture to spaghetti, stirring quickly to avoid scrambling the eggs.",
+      "Serve immediately with additional parmesan cheese and black pepper, if desired."
+    ],
+    "cuisine": "Italian"
+  },
+  {
+    "id": 1,
+    "name": "Chicken Tikka Masala",
+    "items": [
+      "boneless, skinless chicken thighs",
+      "plain yogurt",
+      "tomato paste",
+      "heavy cream",
+      "onion",
+      "garlic",
+      "ginger",
+      "garam masala",
+      "turmeric",
+      "paprika",
+      "cayenne pepper",
+      "salt"
+    ],
+    "steps": [
+      "Marinate chicken in yogurt, minced garlic, minced ginger, and garam masala for at least an hour.",
+      "Cook chicken on a grill or under a broiler until browned.",
+      "In a separate pan, sauté onion until translucent.",
+      "Add tomato paste, heavy cream, turmeric, paprika, cayenne pepper, and salt to the pan and stir well.",
+      "Add cooked chicken to the pan and let simmer for 10-15 minutes until sauce thickens.",
+      "Serve with rice and/or naan bread."
+    ],
+    "cuisine": "Indian"
+  },
+  {
+    "id": 2,
+    "name": "Banh Mi Sandwich",
+    "items": [
+      "baguette",
+      "pork belly",
+      "carrots",
+      "daikon",
+      "cilantro",
+      "jalapeno peppers",
+      "mayonnaise",
+      "soy sauce",
+      "rice vinegar",
+      "sugar",
+      "garlic"
+    ],
+    "steps": [
+      "Mix soy sauce, rice vinegar, sugar, and minced garlic to make a marinade for the pork belly.",
+      "Marinate pork belly for at least an hour, then cook until browned and crispy.",
+      "Julienne carrots and daikon, then pickle in a mixture of rice vinegar, sugar, and salt.",
+      "Slice jalapeno peppers and remove seeds if desired.",
+      "Cut baguette in half and toast in the oven or on a grill.",
+      "Spread mayonnaise on the inside of the baguette, then add pork belly, pickled vegetables, jalapeno peppers, and cilantro.",
+      "Serve immediately."
+    ],
+    "cuisine": "Vietnamese"
+  },
+  {
+    "id": 3,
+    "name": "chicken Stroganoff",
+    "items": [
+      "chicken sirloin",
+      "onion",
+      "mushrooms",
+      "sour cream",
+      "chicken broth",
+      "flour",
+      "egg noodles",
+      "butter",
+      "salt",
+      "black pepper"
+    ],
+    "steps": [
+      "Slice chicken into thin strips, then season with salt and black pepper.",
+      "In a large pan, melt butter and sauté onion and mushrooms until tender.",
+      "Add chicken to the pan and cook until browned on all sides.",
+      "Sprinkle flour over the chicken and stir well to coat.",
+      "Add chicken broth to the pan and let simmer until the sauce thickens.",
+      "Remove pan from heat and stir in sour cream.",
+      "Cook egg noodles according to package instructions.",
+      "Serve chicken stroganoff over the cooked egg noodles."
+    ],
+    "cuisine": "Russian"
+  },
+  {
+    "id": 4,
+    "name": "Fish Tacos",
+    "items": [
+      "tilapia fillets",
+      "tortillas",
+      "cabbage",
+      "avocado",
+      "tomatoes",
+      "red onion",
+      "cilantro",
+      "lime",
+      "sour cream",
+      "mayonnaise",
+      "cumin",
+      "chili powder",
+      "salt"
+    ],
+    "steps": [
+      "In a small bowl, mix sour cream, mayonnaise, cumin, chili powder, and salt to make the sauce.",
+      "Shred cabbage and chop tomatoes, red onion, and cilantro. Cut avocado into small pieces and squeeze lime juice over it.",
+      "Cook tilapia fillets on a grill or in a pan until fully cooked.",
+      "Warm tortillas in the oven or on a pan.",
+      "Assemble tacos by placing cooked fish on a tortilla, topping with cabbage, avocado, tomatoes, red onion, cilantro, and sauce.",
+      "Serve immediately with additional lime wedges, if desired."
+    ],
+    "cuisine": "Mexican"
+  }
+]

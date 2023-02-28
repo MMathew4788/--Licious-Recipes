@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dil-licious</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 3rem 3rem 10rem;
+            color: #555;
+            min-height: 100vh;
+            background: linear-gradient(to top left, #f12711, #f5af19);
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #243763;
+            font-size: 3rem;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .card {
+            background: white;
+            height: 5rem;
+            width: max-content;
+            margin: 3rem auto;
+            box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.30);
+            transform: skewX(-20deg);
+            transition: all 0.5s;
+            display: flex;
+            flex-direction: row;
+            font-family: 'Indie Flower', cursive;
+            border-radius: 2rem;
+            font-weight: bold;
+        }
+
+        .card:hover {
+            transform: skewX(-20deg) scale(1.08);
+            box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.30);
+            
+        }
+
+        .card-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            padding:0 1rem 0;
+        }
+        .card-cuisine{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            height: 100%;
+            background-color: #f5af19;
+            color:#f12711;
+            padding:0 2rem 0;
+        }
+        a {
+            text-decoration: none;
+            color:#f12711;
+        }
+        .card-details{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            padding:0 2rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fa fa-heart" style="color:#f12711"></i>-Licious Recipes</h1>
+    </header>
+    {%RECIPE_CARDS%}
+</body>
+</html>
