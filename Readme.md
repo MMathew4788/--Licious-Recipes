@@ -6,7 +6,7 @@ This is a Node.js server that serves a website with recipe data. The website has
 This project was developed using the following tools:
 - <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="Node.js Logo" height="20"> Node.js 
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/800px-Npm-logo.svg.png" alt="NPM Logo" height="20"> Node Package Manager
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png" alt="Visual Studio Code Logo" height="20"> Visual Studio Code
+
 
 ### Requirements
 - Node.js v14.0 or higher

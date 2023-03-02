@@ -21,14 +21,12 @@
         header {
             margin-bottom: 2rem;
         }
-
         h1 {
             text-align: center;
             color: #243763;
             font-size: 3rem;
             font-family: 'Great Vibes', cursive;
         }
-
         .card {
             background: white;
             height: 5rem;
@@ -43,26 +41,21 @@
             border-radius: 2rem;
             font-weight: bold;
         }
-
         .card:hover {
             transform: skewX(-20deg) scale(1.08);
             box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.30);
             
         }
-
-        .card-item{
+        .card-item, .card-cuisine, .card-details{
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 1.5rem;
+        }
+        .card-item{
             padding:0 1rem 0;
         }
         .card-cuisine{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
-            height: 100%;
             background-color: #f5af19;
             color:#f12711;
             padding:0 2rem 0;
@@ -72,11 +65,19 @@
             color:#f12711;
         }
         .card-details{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
+
             padding:0 2rem 0;
+        }
+        @media (max-width: 550px) {
+        /* CSS for smaller screens */
+        .card {
+            height: max-content;
+            flex-direction: column;
+            margin: 2rem auto;
+        }
+        .card-item, .card-cuisine,.card-details{
+            padding: 0.75rem;
+        }
         }
     </style>
 </head>
